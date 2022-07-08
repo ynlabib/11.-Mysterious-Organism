@@ -18,7 +18,7 @@ const pAequorFactory = (num, arr) => {
     specimenNum: num,
     dna: arr,
     mutate () {
-      let newSpecimenNum = 0;
+      let newSpecimenNum = 0; x
       do{
       newSpecimenNum = returnRandBase();
       this.specimenNum = newSpecimenNum;
